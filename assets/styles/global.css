@@ -1,0 +1,534 @@
+/*CABECALHO*/
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/*MENU MOBILE*/
+.cs-abrir-menu i {
+    color: #1FEDC8;
+    font-size: 45px;
+}
+
+.menu-mobile {
+    background-color: #000;
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999999999999999999999;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu~.overlay-menu {
+    display: block;
+}
+
+.menu-mobile .cs-fechar {
+    padding: 20px 5%;
+}
+
+.menu-mobile .cs-fechar i {
+    color: #1FEDC8;
+    font-size: 45px;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: #1FEDC8;
+    color: #000;
+}
+
+.overlay-menu {
+    background-color: #000000df;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888888;
+    display: none;
+}
+
+/*TOP-WEB*/
+section.top-web {
+    padding: 40px 4%;
+}
+
+section.top-web .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top-web .txt-top-web h1 {
+    color: #fff;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+.top-web .txt-top-web h1 span {
+    color: #1FEDC8;
+}
+
+.top-web .txt-top-web p {
+    color: #fff;
+    margin: 30px 0;
+}
+
+/*LINGUAGENS*/
+section.linguagens {
+    padding: 40px 4%;
+}
+
+section.linguagens .flex {
+    gap: 60px;
+}
+
+.linguagens .linguagens-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 45px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.linguagens .linguagens-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linguagens .linguagens-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff75;
+}
+
+.linguagens .linguagens-box i {
+    font-size: 45px;
+    color: #1FEDC8;
+}
+
+.linguagens .linguagens-box h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.cta h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.linguagens .linguagens-button{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*RECURSOS*/
+section.recursos {
+    padding: 40px 4%;
+}
+
+section.recursos .flex {
+    gap: 60px;
+}
+
+.recursos .subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+}
+
+.recursos .recursos-box {
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 45px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.recursos .recursos-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.recursos .recursos-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff75;
+}
+
+.recursos .recursos-box i {
+    font-size: 45px;
+    color: #1FEDC8;
+}
+
+.recursos .cta h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.recursos .recursos-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*COMO-USAR*/
+section.como-usar {
+    padding: 40px 4%;
+}
+
+section.como-usar .flex {
+    gap: 60px;
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.como-usar .como-usar-box {
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 45px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.como-usar .como-usar-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.como-usar .como-usar-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff75;
+}
+
+.como-usar .como-usar-box i {
+    font-size: 45px;
+    color: #1FEDC8;
+}
+
+.como-usar .cta-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*SOBRE*/
+section.sobre {
+    padding: 40px 4%;
+}
+
+.sobre h1.title{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobre .subtitle1 {
+    margin-top: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sobre .cta-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sobre .txt-top-web h1{
+    color: #fff;
+    font-size: 34px;
+    line-height: 39px;
+    padding: 40px 4%;
+}
+
+.sobre .txt-top-web p{
+    color: #fff;
+    padding: 0px 4%;
+}
+
+.sobre .sobre-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 45px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.sobre .sobre-box:hover{
+    transform: scale(1.05s);
+    box-shadow: 0 0 20px #ffffff75;
+}
+
+.sobre .sobre-box i{
+    font-size: 45px;
+    color: #1FEDC8;
+}
+
+.sobre .interface h1{
+    margin-top: 45px;
+}
+
+.sobre .interface h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 4%;
+    margin-top: 20px;
+}
+
+/*CONTATOS*/
+section.contatos {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form input::placeholder {
+    color: #1FEDC8;
+}
+
+form textarea::placeholder {
+    color: #1FEDC8;
+}
+
+form .cs-enviar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+form .cs-enviar input {
+    width: 175px;
+    background-color: #1FEDC8;
+    color: #000;
+    font-weight: 650;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*MANUTENCAO*/
+section.manutencao{
+    padding: 20px 4%;
+    height: 75vh;
+    margin-top: 20px;
+}
+
+.manutencao i{
+    padding-left: 500px;
+    align-items: center;
+    font-size: 200px;
+    color: #1FEDC8;
+}
+
+.manutencao h3{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 30px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+footer .social-button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1FEDC8;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5;
+}
+
+.borda {
+    border-top: 2px solid #1FEDC8;
+}
+
+footer .line-footer p i {
+    color: #1FEDC8;
+    font-size: 18px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*RESPOSIVO*/
+@media screen and (max-width: 1980px){
+    /*MENU MOBILE*/
+    .cs-abrir-menu i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 920px){
+    /*GERAl*/
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.title{
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    /*MENU-MOBILE*/
+    .cs-abrir-menu i{
+        display: block;
+    }
+
+    /*CABEÇALHO*/
+    .menu-desktop, .cs-login{
+        display: none;
+    }
+
+    /*TOP-WEB*/
+    section.top-web .flex{
+        gap: 40px;
+    }
+
+    section.top-web{
+        padding: 20px 8%;
+    }
+
+    .top-web .txt-top-web h1{
+        font-size: 28px;
+    }
+
+    /*LINGUAGENS*/
+    section.linguagens{
+        padding: 20px 8%;
+    }
+
+    /*RECURSOS*/
+    section.recursos{
+        padding: 20px 8%;
+    }
+
+     /*COMO USAR*/
+     section.como-usar{
+        padding: 20px 8%;
+     }
+
+     /*SOBRE*/
+     section.sobre{
+        padding: 20px 8%;
+     }
+
+     /*CONTATOS*/
+     section.contatos{
+        padding: 20px 8%;
+     }
+
+     /*MANUTENCAO*/
+     section.manutencao{
+        padding: 20px 8%;
+        height: 75vh;
+     }
+     section.manutencao i{
+        padding-left: 65px;
+     }
+
+     section.manutencao h3{
+        font-size: 35px;
+     }
+
+     /*FOOTER*/
+     footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
