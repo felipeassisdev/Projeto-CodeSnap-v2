@@ -2,7 +2,7 @@
 
 ### Uma nova experiência para aprender a programar
 
-###### NÃO ESTÁ FINALIZADO
+###### **`NÃO ESTÁ FINALIZADO`**
 
 ## Funcionalidades
 - 🚀 Interface moderna para ficar por dentro das evoluções
