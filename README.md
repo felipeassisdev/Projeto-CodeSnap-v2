@@ -1,4 +1,4 @@
-<span style="color: #1FCEED;"># CodeSnap</span>
+# CodeSnap
 
 ### Uma nova experiência para aprender a programar
 
